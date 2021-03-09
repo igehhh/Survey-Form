@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7fffd4;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#survey-form {
+  background-color: #2c6854;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  max-width: 600px;
+  margin: 0% auto;
+  color: aliceblue;
+  padding: 20px 20px;
+}
+
+.form-control input,
+.form-control select {
+  display: block;
+  width: 100%;
+  border: 2px solid #21664f;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
